@@ -1,0 +1,100 @@
+.img-thumb-path {
+    width: 100px;
+    height: 80px;
+    object-fit: scale-down;
+    object-position: center center;
+}
+
+hr.custom-divider {
+  height: 1px; /* Altura de la línea */
+  width: 100%;  /* Longitud de la línea */
+  background-color: black; /* Color de la línea */
+  margin:  auto; /* Margen para centrar la línea */
+}
+
+
+.tabla-scrollable {
+width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+height: 400px; /* Altura fija para el contenedor */
+overflow: auto; /* Hace que aparezca una barra de desplazamiento cuando sea necesario */
+}
+
+.tabla-scrollable table {
+width: 100%; /* Para asegurarse de que la tabla ocupe todo el ancho del contenedor */
+/* Otros estilos de tabla, como bordes, colores, etc., pueden ir aquí */
+}
+
+h3.card-title{
+    text-align: center;
+    float: center;
+}
+
+p.notificacion {
+font-size: 10px !important;
+}
+
+.card-primary.card-outline {
+border-top: 3px solid #ff0000;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+
+  .cke_notification_warning {
+    background: #c83939;
+    border: 1px solid #902b2b;
+    display: none;
+}
+
+
+
+
+    img.img-logo-empresa {
+      margin: auto;
+      display: block;
+  }
+
+
+  /*css para resultados de aprendizaje*/
+.fieldset-container {
+    margin-bottom: 50px;    
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+
+#imageList img {
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

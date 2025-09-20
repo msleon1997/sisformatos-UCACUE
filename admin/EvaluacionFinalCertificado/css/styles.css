@@ -1,0 +1,120 @@
+.img-thumb-path {
+    width: 100px;
+    height: 80px;
+    object-fit: scale-down;
+    object-position: center center;
+}
+
+hr.custom-divider {
+  height: 1px; 
+  width: 100%;  
+  background-color: black; 
+  margin:  auto; 
+}
+
+
+.tabla-scrollable {
+width: 100%; 
+height: 400px; 
+overflow: auto; 
+}
+
+.tabla-scrollable table {
+width: 100%; 
+}
+
+h3.card-title{
+    text-align: center;
+    float: center;
+}
+
+p.notificacion {
+font-size: 10px !important;
+}
+
+.card-primary.card-outline {
+border-top: 3px solid #ff0000;
+}
+
+.img-thumb-path {
+    width: 100px;
+    height: 80px;
+    object-fit: scale-down;
+    object-position: center center;
+}
+
+hr.custom-divider {
+  height: 1px; 
+  width: 100%;  
+  background-color: black;
+  margin:  auto; 
+}
+
+
+.tabla-scrollable {
+width: 100%; 
+height: 400px; 
+overflow: auto; 
+}
+
+.tabla-scrollable table {
+width: 100%; 
+}
+
+h3.card-title{
+    text-align: center;
+    float: center;
+}
+
+p.notificacion {
+font-size: 10px !important;
+}
+
+.card-primary.card-outline {
+border-top: 3px solid #ff0000;
+}
+
+.img-logo-empresa{
+    width: 20%;
+    height: 20%;
+}
+
+ /* Estilos específicos para la impresión */
+ @media print {
+    body {
+        font-size: 12px; 
+    }
+
+    .custom-divider {
+        margin: 10px 0; 
+    }
+
+    .img-fluid {
+        max-width: 150px; 
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 10px; 
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    .print-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .page {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto; 
+    }
+    /* Eliminar márgenes de página para aprovechar mejor el espacio */
+    @page {
+        margin: 1cm;
+    }
+}

@@ -1,0 +1,42 @@
+.card-primary.card-outline {
+    border-top: 3px solid #ff0000;
+    }
+
+    
+    hr.custom-divider {
+        height: 20px; /* Altura del espacio */
+        border: none; /* Sin borde */
+    }
+
+    .table-spacing {
+        margin-top: 20px; /* Espacio entre la cabecera y la tabla */
+    }
+
+    .col-firma {
+    display: block;
+    margin: auto;
+    text-align: center;
+    }
+.form-group.col-md-2.end-column {
+    float: right;
+    margin-left: auto;
+    display: flex;
+    margin-right: 10px; 
+}
+
+h4.title-cert {
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@media print {
+  .btn, .card-header, .search-box {
+    display: none !important;
+  }
+
+  .card-body {
+    padding: 0px 110px !important;
+  }
+}

@@ -1,0 +1,161 @@
+.img-thumb-path {
+    width: 100px;
+    height: 80px;
+    object-fit: scale-down;
+    object-position: center center;
+}
+
+hr.custom-divider {
+  height: 1px;
+  width: 100%;  
+  background-color: black; 
+  margin:  auto; 
+}
+
+
+
+.tabla-scrollable {
+    width: 100%;
+    max-height: 400px; 
+    overflow-x: auto; 
+    overflow-y: auto;  
+}
+
+.tabla-scrollable table {
+    min-width: 2000px; 
+    border-collapse: collapse;
+}
+
+.tabla-scrollable p, 
+.tabla-scrollable ul {
+    margin: 0;  
+}
+
+.tabla-scrollable ul {
+    padding-left: 15px; 
+    list-style-type: disc; 
+    word-break: break-word;
+}
+
+
+.tabla-scrollable thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    color: white;
+    z-index: 2;
+}
+
+
+
+h3.card-title{
+    text-align: center;
+    float: center;
+}
+
+p.notificacion {
+font-size: 10px !important;
+}
+
+.card-primary.card-outline {
+border-top: 3px solid #ff0000;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+
+  .cke_notification_warning {
+    background: #c83939;
+    border: 1px solid #902b2b;
+    display: none;
+}
+
+
+
+
+  img.img-logo-empresa {
+      margin: auto;
+      display: block;
+  }
+
+  .img-aprobaciones{
+    
+      margin: auto;
+      display: block;
+  }
+
+ .img-anexos{
+    
+      margin: auto;
+      display: block;
+  }
+
+
+  /*css para resultados de aprendizaje*/
+.fieldset-container {
+    margin-bottom: 50px;    
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+
+#imageList img {
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#sys_logo {
+  width: 5em;
+  height: 5em;
+  object-fit: scale-down;
+  object-position: center center;
+}
+/* Estilo para hacer la tabla scrollable */
+.table-responsive {
+  max-height: 600px;
+  overflow-y: auto;
+  display: block;
+}
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+.table th, .table td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
